@@ -1,0 +1,50 @@
+# Build artifacts and temporary files
+build/
+dist/
+__pycache__/
+*.pyc
+*.obj
+*.o
+*.log
+*.bak
+backup/
+
+# Precompiled packages and installers -> publish via GitHub Releases Assets only.
+# Never commit these into the Git source tree (HYGIENE-BIN-01).
+*.exe
+*.msi
+*.zip
+*.rar
+*.7z
+*.dmg
+*.cab
+*.ddz
+*.apk
+
+# Release staging area (local build artifacts, uploaded to Releases manually)
+_release_staging/
+
+
+# Signing keys & credentials
+*.pk8
+*.pem
+*.pfx
+*.p12
+*.jks
+*.keystore
+
+# IDE, OS & AI tool artifacts (never commit)
+.idea/
+.vs/
+.vscode/
+.claude/
+.workbuddy/
+.cursor/
+__MACOSX/
+.DS_Store
+Thumbs.db
+._*
+~$*
+
+# Note: .dll / .lib / .a files are SDK components intentionally kept in the
+# repository (audit-allowed) and are NOT ignored.
