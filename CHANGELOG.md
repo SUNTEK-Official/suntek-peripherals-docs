@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - LED controller: serial HEX command reference with verified fixed-color commands (both platforms).
 - Complete Windows XP-series printer driver suite and barcode scanner test tool published as checksummed `.zip` assets on GitHub Releases under tag `v1.0.0`.
 - `THIRD_PARTY_NOTICES.md` documenting bundled third-party driver components.
-- `assets/` with official SUNTEK PNG/WebP logo and banner artwork.
+- Unified SUNTEK README header and footer referencing canonical `.github` brand assets.
 
 ### Changed
 - Standardized all directories and sub-documents to lowercase `kebab-case` paths.
